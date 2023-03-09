@@ -1,2 +1,39 @@
 
 /* Your CSS Code here. */
+
+* {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+img {
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.first-row {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.second-row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.third-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.forth-row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
